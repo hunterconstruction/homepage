@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700|Raleway:400,500');
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	color: white;
+	position: relative;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: white;
+}
+
+
+nav.navbar {
+	background-color: black;
+	border-radius: 0;
+}
+
+	nav.navbar .navbar-header .navbar-brand {
+		color: white;
+		transition: all ease-out 0.3s;
+	}
+
+	nav.navbar .navbar-header .navbar-brand:hover {
+		color: rgba(113, 113, 113, 0.6);
+	}
+
+	nav.navbar .navbar-nav > .active > a {
+		border-color: white;
+	}
+
+	nav.navbar .navbar-nav > li > a {
+		color: white;
+		transition: all ease-out 0.3s;
+	}
+
+	nav.navbar .navbar-nav > li > a:hover {
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+
+	nav.navbar .navbar-toggle {
+
+	}
+
+	nav.navbar .navbar-toggle span.icon-bar {
+		background-color: white;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+	width: 100%;
+	/*height: 70vh;*/
+	margin: 0;
+	padding: 0;
+	margin-top: 50px;
+
+	position: relative;
+}
+
+header .unslider {
+	max-height: 855px;
+	overflow: hidden;
+}
+
+header .heroHeader-slider {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+	.heroHeader-slider ul {
+
+	}
+
+	.heroHeader-slider ul li {
+		
+	}
+
+	.heroHeader-slider ul li img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+header .unslider .unslider-arrow {
+	display: none;
+}
+
+header .unslider-nav ol {
+	display: none;
+}
+
+header .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 9;
+
+	background-color: rgba(1, 1, 1, 0.5);
+
+	text-align: center;
+}
+
+header h1, header h3 {
+	margin: 10px auto;
+
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	color: white;
+
+	padding: 10px;
+	background-color: rgba(1, 1, 1, 0.9);
+}
+
+header h5 {
+	padding-top: 140px;
+}
+
+header h3 {
+	width: 50%;
+}
+
+header h1 {
+	width: 80%;
+}
+
+
+@media screen and (max-width: 540px) {
+	header h5 {
+		padding-top: 40px;
+	}
+
+	header h3 {
+		font-size: 1.2em;
+	}
+
+	header h1 {
+		font-size: 2em;
+	}
+}
+
+
+
+
+
+
+
+
+section {
+	margin: 0;
+	padding: 20px 0;
+	position: relative;
+	background-color: black;
+}
+
+section .sectionHeader {
+	margin: 150px auto 0;
+	text-align: center;
+}
+
+section .headerUnderline {
+	width: 50%;
+	margin: 10px auto;
+	border: 1px solid white;
+}
+
+section .excerpt {
+	width: 60%;
+	margin: 60px auto;
+	text-align: center;
+}
+
+	section .excerpt p {
+		font-size: 1.2em;
+		line-height: 24px;
+		letter-spacing: 1px;
+	}
+
+
+
+
+
+
+
+
+#about {
+
+}
+
+	#about .attributes {
+		margin: 40px auto;
+	}
+
+	#about .attributes h3 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 300;
+		text-align: center;
+	}
+
+	#about .attributes .h3Underline {
+		width: 50%;
+		margin: 10px auto;
+		border: 1px solid white;
+	}
+
+	#about .second {
+		width: 60%;
+		margin: 20px auto;
+	}
+
+@media screen and (max-width: 768px) {
+	#about .attributes .col-sm-4 {
+		width: 50%;
+		margin: 40px auto;
+	}
+
+	#about .attributes .col-sm-6 {
+		width: 60%;
+		margin: 40px auto;
+	}
+}
+
+
+
+
+
+
+
+
+#services {
+
+}
+
+.popularJobs {
+	width: 75%;
+	margin: 40px auto;
+	padding: 0;
+}
+
+	.popularJobs .row {
+		padding: 10px 0;
+		/*max-height: 135px;*/
+	}
+
+	.popularJobs .row .col-sm-4 {
+
+	}
+
+	.popularJobs .row .col-sm-4 img {
+		width: 100%;
+	}
+
+	.popularJobs .row .col-sm-8 {
+		height: inherit;
+		background-color: white;
+		color: black;
+		padding: 2%;
+	}
+
+	.popularJobs .row .mobile {
+		display: none;
+	}
+
+	.popularJobs .row .col-sm-8 h1 {
+		font-size: 2em;
+		margin: 10px 0;
+		text-align: center;
+	}
+
+	.popularJobs .row .col-sm-8 p {
+		color: black;
+	}
+
+@media screen and (max-width: 768px) {
+	.popularJobs .row .col-sm-4 {
+   		width: 100%;
+   		padding: 0;
+	}
+
+	.popularJobs .row .col-sm-8 {
+		padding: 10px;
+		text-align: center;
+	}
+
+	.popularJobs .row .mobile {
+		display: block;
+	}
+
+	.popularJobs .row .desktop {
+		display: none;
+	}
+}
+
+
+
+
+.theProcess {
+	width: 75%;
+	margin: 100px auto;
+	background-color: white;
+	text-align: center;
+	color: black;
+
+	padding: 20px 5px;
+}
+
+	.theProcess h1 {
+		font-size: 2em;
+	}
+
+	.theProcess .headerUnderline {
+		border-color: black;
+		margin: inherit auto;
+	}
+
+	.theProcess .aStep {
+		width: 90%;
+		margin: 40px auto;
+
+	}
+
+	.theProcess p {
+		color: black;
+	}
+
+
+
+
+
+
+
+
+
+#workGallery {
+
+}
+
+@media screen and (min-width: 768px) {
+	#galleryCarousel {
+	width: 75%;
+	margin: 40px auto;
+	}
+}
+
+#galleryCarousel span {
+	color: black;
+}
+
+#galleryCarousel .item img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact {
+	background-color: white;
+	padding-bottom: 0;
+}
+
+#contact h1 {
+	color: black;
+}
+
+#contact .headerUnderline {
+	border-color: black;
+}
+
+#contact .contactBox {
+	margin: 60px auto;
+	text-align: center;
+}
+
+	.contactBox .method {
+		margin-bottom: 40px;
+	}
+
+	.contactBox h1 {
+		width: 80%;
+		margin: 20px auto 0;
+
+		font-size: 1.2em;
+	}
+
+	.contactBox a {
+		display: inline-block;
+		margin: 10px auto;
+		padding: 10px 15px;
+		border: 2px solid #717171;
+		border-radius: 5px;
+
+		text-decoration: none;
+		font-size: 2em;
+		color: #717171;
+
+		transition: all ease-out 0.3s;
+	}
+
+	.contactBox a:hover {
+		color: white;
+		background-color: black;
+	}
+
+#contact .mapView {
+	width: 100%;
+	padding: 300px 0;
+	position: relative;
+	background-image: url('../img/brooklynMap.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#contact .mapView .textWrapper {
+	width: 40%;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+
+	background-color: black;
+	padding: 15px 10px;
+}
+
+#contact .textWrapper h1 {
+		margin: 0;
+		color: white;
+		text-align: center;
+		font-size: 1.5em;
+	}
