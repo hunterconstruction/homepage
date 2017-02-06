@@ -224,13 +224,13 @@ section .excerpt {
 
 @media screen and (max-width: 768px) {
 	#about .attributes .col-sm-4 {
-		width: 50%;
+		width: 100%;
 		margin: 40px auto;
 	}
 
 	#about .attributes .col-sm-6 {
-		width: 60%;
-		margin: 40px auto;
+		width: 100%;
+		margin: 20px auto 40px;
 	}
 }
 
@@ -292,6 +292,7 @@ section .excerpt {
 	}
 
 	.popularJobs .row .col-sm-8 {
+		width: 100%;
 		padding: 10px;
 		text-align: center;
 	}
@@ -309,7 +310,7 @@ section .excerpt {
 
 
 .theProcess {
-	width: 75%;
+	width: 80%;
 	margin: 100px auto;
 	background-color: white;
 	text-align: center;
@@ -354,6 +355,11 @@ section .excerpt {
 	width: 75%;
 	margin: 40px auto;
 	}
+
+	#galleryCarousel2 {
+	width: 75%;
+	margin: 40px auto;
+	}
 }
 
 #galleryCarousel span {
@@ -365,6 +371,26 @@ section .excerpt {
 }
 
 
+
+
+
+#galleryCarousel2 .carousel-inner {
+	/*height: 640px;*/
+}
+
+#galleryCarousel2 span {
+	color: white;
+}
+
+#galleryCarousel2 .item {
+	width: 100%;
+}
+
+#galleryCarousel2 .item img {
+	width: 360px;
+	height: 640px;
+	margin: 0 auto;
+}
 
 
 
